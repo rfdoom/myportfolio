@@ -2195,3 +2195,53 @@ input, select, textarea {
 			padding-right: 5%;
 			font-weight: 500;
 		}
+
+
+
+
+    .column {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .github {
+      background-color: rgb(44, 41, 41);
+      color: #fff;
+    }
+
+    .linkedin {
+      background-color: #0077b5;
+      color: #fff;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+		.contact-header {
+			color: white
+		}
+
+		.conlink {
+			display: flex;
+      align-items: center;
+      justify-content: center; 
+      text-decoration: none;
+      color: #a52828; /* Icon color */
+      transition: color 0.3s ease;
+
+    }
+
+    .conlink:hover {
+      color: #ffffff; /* Change color on hover */
+    }
+
+    .conlink i {
+      font-size: 36px;
+      margin-right: 10px; /* Adjust spacing between icon and text */
+    }
+
+    .conlink span {
+      font-size: 18px;
+		}
