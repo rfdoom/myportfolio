@@ -2166,6 +2166,8 @@ input, select, textarea {
 		#footer .copyright {
 			list-style: none;
 			padding-left: 0;
+			color: rgb(1, 0, 2);
+			font-size: x-small;
 		}
 
 			#footer .copyright li {
@@ -2244,4 +2246,9 @@ input, select, textarea {
 
     .conlink span {
       font-size: 18px;
+		}
+
+		.link-title {
+			display: flex;
+			justify-content: center;
 		}
